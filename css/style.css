@@ -36,12 +36,12 @@
 }
 
 #genius li:nth-child(1) {
-    background-color: blue;
+    background-color: green;
     border-top-left-radius: 100%;
 }
 
 #genius li:nth-child(2) {
-    background-color: green;
+    background-color: red;
     border-top-right-radius: 100%;
 }
 
@@ -51,6 +51,6 @@
 }
 
 #genius li:nth-child(4) {
-    background-color: red;
+    background-color: blue;
     border-bottom-right-radius: 100%;
 }
