@@ -23,6 +23,7 @@
 }
 
 #genius li {
+    position: relative;
     display: block;
     float: left;
     width: 50%;
@@ -31,7 +32,7 @@
     opacity: 0.4;
 }
 
-#genius li:hover, #genius li.active {
+#genius li.active {
     opacity: 1;
 }
 
@@ -53,4 +54,16 @@
 #genius li:nth-child(4) {
     background-color: blue;
     border-bottom-right-radius: 100%;
+}
+
+#genius li span {
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0,0,0,0.8);
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 250px;
+    display: block;
+    position: absolute;
+    text-align: center;
+    width: 100%;
 }
