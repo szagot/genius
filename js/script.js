@@ -6,11 +6,14 @@ $(()=>{
         $board.find('li').eq(2),
         $board.find('li').eq(3),
     ];
+    let optionClicked = null;
+    let allowClick = false;
 
+    // Adiciona ação de click nos itens
     board.forEach(($li, i) => {
         $li.on('click', () => {
-            // TODO: teste
-            alert(`Click em ${i}`);
+            optionClicked = allowClick ? i : null;
+            // TODO: executar ação
         });
     });
 });
